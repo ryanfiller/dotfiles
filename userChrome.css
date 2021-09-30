@@ -1,0 +1,15 @@
+/* for firefox */
+/* ryanfiller.com/blog/tips/save-custom-javascript-as-a-bookmark */
+
+.bookmark-item[label="GoatCounterToday"] > .toolbarbutton-icon {
+    width: 0px !important;
+    height: 0px !important;
+    padding: 0 0 16px 16px !important;
+    background-image: url("https://static.zgo.at/favicon/favicon-16x16.png") !important;
+    background-size: cover !important;
+    margin-right: 0 !important;
+}
+
+.bookmark-item[label="GoatCounterToday"] > .toolbarbutton-text {
+    display: none !important;
+}
